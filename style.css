@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--light-gray);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 20px;
+    margin-top: 6%;
+    padding: 15px;
+    width: 290px;
+    height: 450px;
+}
+
+.card img {
+    border-radius: 10px;
+    width: 260px;
+    margin-bottom: 20px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card span {
+    font-size: 20px;
+    font-weight: 700;
+    /* padding: 0 9px; */
+    margin-bottom: 15px;
+    width: 240px;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--grayish-blue);
+    width: 235px;
+    text-align: center;
+
+}
+
+.attribution {
+    background: #353535;
+    color: hsl(212, 45%, 89%);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    font-size: 15px;
+    font-family: Lexend Deca;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 10%;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: lightblue;
+}
